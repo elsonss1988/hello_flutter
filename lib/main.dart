@@ -6,7 +6,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-      body: Text('Hello'),
-    ));
+            body: Center(
+      child: Text('Hello'),
+    )));
   }
 }
